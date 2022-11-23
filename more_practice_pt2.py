@@ -1,6 +1,10 @@
+# importing another py file
 import more_practice
 
+# storing a sentence in a variable called sentence 
 sentence = 'All good things come to those who wait.'
+
+
 words = more_practice.break_words(sentence)
 words
 sorted_words = more_practice.sort_words(words)
