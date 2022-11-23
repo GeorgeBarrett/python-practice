@@ -37,6 +37,7 @@ def secret_formula(started):
 start_point = 10000
 
 # these three variables store the secret_formula function with start_point (10000) passed in
+# I can redifine jelly_beans as beans because the variable is being passed through within the function secret_formula
 beans, jars, crates = secret_formula(start_point)
 
 # this prints out 10000 inside the braces but using .format(variable) rather than an f string
